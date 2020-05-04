@@ -19,7 +19,10 @@ def take_a_number(line, name)
   puts "Welcome, #{name}. You are number #{line.size} in line."
 end
 
-def now_serving
-  puts "Currently serving #{line.first}."
-  line.unshift
+def now_serving(line)
+  if(line.size == 0)
+    
+  end
+
+  puts "Currently serving #{line.shift}."
 end
