@@ -13,3 +13,4 @@ def line(customers)
     puts line_string
   end
 end
+
