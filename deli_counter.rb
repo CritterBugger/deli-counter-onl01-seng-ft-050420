@@ -14,3 +14,6 @@ def line(customers)
   end
 end
 
+def take_a_number(line, name)
+  puts "Welcome, #{name}. You are number "
+end
