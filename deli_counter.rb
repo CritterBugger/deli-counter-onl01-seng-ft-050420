@@ -11,4 +11,6 @@ def line(customers)
   customers.each do |customer|
     line_string = line_string + " #{customers.index(customer) + 1}. #{customer}"
   end
+  
+  puts line_string
 end
